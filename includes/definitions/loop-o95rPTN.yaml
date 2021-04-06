@@ -1,0 +1,14 @@
+os: loop
+text: 'loop-o9500RPTN'
+type: system
+icon: none
+over:
+    - { graph: device_bits, text: Traffic }
+    - { graph: device_mempool, text: 'Memory Usage' }
+discovery:
+    -
+        sysObjectID:
+            - .1.3.6.1.4.1.232.9.4.10
+            - .1.3.6.1.4.1.232.9.4.11
+mib_dir: loop
+© 2021 GitHub, Inc.
